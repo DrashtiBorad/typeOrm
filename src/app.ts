@@ -6,7 +6,7 @@ app.use(express.json());
 const port = 3003;
 
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "Server started successfully." });
+  res.send({ message: "Server started successfully." });
 });
 
 app.listen(port, () => {
