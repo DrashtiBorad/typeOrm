@@ -10,6 +10,9 @@ app.use(router);
 dotenv.config();
 
 const port = 3003;
+app.get("/", (req, res) => {
+  res.status(200).json({ message: "Server started successfully." });
+});
 
 appDataSource
   .initialize()
