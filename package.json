@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./src/app.ts",
-    "build":"tsc -p ."
+    "build": "tsc -p ."
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,7 @@
     "@aws-sdk/s3-request-presigner": "^3.729.0",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "formidable": "^3.5.2",
